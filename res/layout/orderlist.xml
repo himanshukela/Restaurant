@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/red_bg">
+
+   	<ListView 
+    	android:id="@+id/list"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+   	</ListView>
+   	
+   	
+   	    <Button 
+   	        android:id="@+id/PlaceOrder_btn"
+   	        android:layout_height="wrap_content"
+   	        android:layout_width="wrap_content"
+   	        android:text="SendOrder"
+   	        android:background="@drawable/btn_style"
+   	        android:layout_alignParentBottom="true"
+   	        android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:textColor="#04FE00"/>
+   	    <Button 
+   	        android:id="@+id/gotomenu_btn"
+   	        android:layout_height="wrap_content"
+   	        android:layout_width="wrap_content"
+   	        android:text="GoToMenu"
+   	        android:background="@drawable/btn_style"
+   	        android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:textColor="#04FE00"
+   	        android:layout_alignParentBottom="true"
+   	        android:layout_alignParentRight="true"/>
+   	
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TimmyRestaurantActivity!</string>
+    <string name="app_name">Restaurant</string>
+    <string name="text1">This App Helps You To Place Your Order. :\n  1 - First Fill Your Details in Customer Info \n        Option. \n  2 - To Place Order  Go To  Menu  Option.</string>
+    <string name="text2">  3 - To Edit Item Go To OrderList Option. \n  4 - Here You Can Remove Any Item That You \n        no Longer Need.</string>
+    <string name="text3">  5 - To Find Us Use Google Map By Click On \n        Find Store Option.</string>
+    <string name="text4">  6 - For Details Click On Info Option.</string>
+	<string name="info">This app provides you the whole menu of our restaurant. So ehenever you go for buying or ordering the food, dont worry about making notes because this app is able to take all menu related worries. All you need to do is just make a order note of your choice in this app. In short place the order. So any where you are just place the order and search for our nearest store. Finally you will receive your ordered food from there.</string>
+</resources>

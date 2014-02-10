@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/red_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/orderitem"
+        style="@android:anim/slide_in_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="No of item" 
+        android:textSize="17dp"
+		android:textStyle="bold"
+		android:textColor="#04FE00"/>
+	<Button
+        android:id="@+id/Place_Order_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/btn_style"
+        android:textSize="15dp"
+		android:textStyle="bold"
+		android:textColor="#04FE00"
+        android:text="Add to Order" />
+	
+	<EditText
+      	android:id="@+id/devide_quanity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Place_Order_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/Place_Order"
+        android:layout_marginBottom="40dp" />
+    
+	<TextView
+        
+        android:id="@+id/devidetextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/devide_quanity"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="17dp"
+        android:textSize="15dp"
+		android:textStyle="bold"
+		android:textColor="#04FE00"
+        android:text="Devide quanity by(Ex. 1/2 )" />
+
+    <EditText
+       
+        android:id="@+id/Quantity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/devidetextview"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+      	android:gravity="center" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

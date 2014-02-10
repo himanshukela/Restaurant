@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_launcher"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_above="@+id/l3"
+        android:orientation="horizontal">
+		<Button 
+		    android:id="@+id/Go_To_Menu"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Menu"
+		    android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:textColor="#04FE00"
+		    android:background="@drawable/btn_style"
+		    android:layout_weight="1"/>
+		
+	    <Button
+	        android:id="@+id/Go_To_Order_List"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn_style"
+	        android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:textColor="#04FE00"
+	        android:layout_weight="1"
+	        android:text="Order" />
+		
+	<!--  	<Button
+	        android:id="@+id/custinfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn_style"
+	        android:textColor="#FC00FF"
+	        android:layout_weight="1"
+	        android:text="Customer" />-->
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="horizontal"
+	    android:id="@+id/l3">
+	    <Button
+	        android:id="@+id/FindStore"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn_style"
+	        android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:textColor="#04FE00"
+	        android:layout_weight="1"
+	        android:text="Find Store"/>
+	
+	    <Button
+	        android:id="@+id/Info"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn_style"
+	        android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:textColor="#04FE00"
+	        android:layout_weight="1"
+	        android:text="Information" />
+	</LinearLayout>
+	
+	    
+</RelativeLayout>
+
